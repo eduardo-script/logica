@@ -9,3 +9,6 @@ console.log("Tem a palavra princisa: "+texto.includes("princesa"))
 console.log(texto.replace("rato","jose"))
 console.log(texto.replaceAll("a","@"))
 
+const email:string = " email@meuemail.com "
+console.log(" email: "+email.trim())
+
