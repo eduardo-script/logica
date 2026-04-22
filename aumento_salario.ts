@@ -1,7 +1,4 @@
-const tela = require('readline-sync')
+let salario: number = Number(teclado.question("Salario atual: "));
+let novoSalario = salario * 1.15;
 
-const salario:number = Number(tela.question('Informe o salario: '))
-const percentual:number = 0.15 // 18/100 
-const resultado:number = salario + salario + percentual
-
-console.log(`O salario com ajuste de 15% será: R$ ${resultado.toFixed(2)}`)
+console.log("Com 15% de aumento, seu salario sera: R$ " + novoSalario.toFixed(2));

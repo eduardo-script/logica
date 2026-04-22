@@ -1,16 +1,14 @@
-const tela = require('readline-sync')
+const teclado = require('readline-sync');
 
-const largura:number = Number(tela.question('Informe a largura: '))
-const altura:number = Number(tela.question('Informe a altura: '))
- 
+// 1. Entrada de dados
+let largura: number = Number(teclado.question("Digite a largura do retangulo: "));
+let altura: number = Number(teclado.question("Digite a altura do retangulo: "));
 
- if (isNaN(largura) || isNaN(altura)) {
-      console.log('Por favor, insira números válidos.');
-    } else {
-      const area = largura * altura;
-      const perimetro = 2 * (largura + altura);
+// 2. Processamento
+let area = largura * altura;
+let perimetro = 2 * (largura + altura);
 
-      console.log(`\n--- Resultados ---`);
-      console.log(`Área: ${area}`);
-      console.log(`Perímetro: ${perimetro}`);
-    }
+// 3. Saída
+console.log("--- Resultados ---");
+console.log("Area: " + area);
+console.log("Perimetro: " + perimetro);

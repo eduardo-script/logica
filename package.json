@@ -2,19 +2,21 @@
   "name": "logica",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/eduardo-script/logica#readme",
+  "bugs": {
+    "url": "https://github.com/eduardo-script/logica/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardo-script/logica.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "variavel.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "@types/node": "^25.6.0",
-    "@types/prompt-sync": "^4.2.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^6.0.2"
   },
   "dependencies": {
     "acorn": "^8.16.0",
@@ -28,5 +30,11 @@
     "undici-types": "^7.19.2",
     "v8-compile-cache-lib": "^3.0.1",
     "yn": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/prompt-sync": "^4.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
   }
 }
